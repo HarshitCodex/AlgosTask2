@@ -7,11 +7,13 @@ int main()
     cin.tie(NULL);
     ll n,q;
     cin>>n>>q;
-    ll num[n+2];
+    map<ll,ll> num;
     for(ll i=0;i<n+1;i++)
     {
+        //cout<<"IN"<<endl;
         num[i]=i;
     }
+    cout<<"Lets go"<<endl;
     while(q--)
     {
         ll l,r,v;
@@ -34,3 +36,4 @@ int main()
     }
     cout<<res<<endl;
 }
+
